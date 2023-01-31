@@ -79,7 +79,6 @@
               <q-icon name="search" />
             </template>
           </q-input>
-          <notification-icon class="q-mr-md" />
 
           <q-btn-dropdown flat rounded>
             <template v-slot:label>
@@ -142,11 +141,9 @@
 <script>
 import { DEFAULT_AVATAR } from '../utils/constants';
 
-import NotificationIcon from 'components/Notification/NotificationIcon.vue';
 export default {
   name: 'ForumContainer',
   components: {
-    NotificationIcon,
   },
   data() {
     return {

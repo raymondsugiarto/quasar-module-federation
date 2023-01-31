@@ -1,6 +1,7 @@
 <template>
   <q-page class="flex flex-center">
     <HalloComponent></HalloComponent>
+    <q-btn class="btn bg-yellow">hello</q-btn>
   </q-page>
 </template>
 
